@@ -1,0 +1,30 @@
+{
+  "name": "emilist",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "antd": "^5.9.4",
+    "next": "^13.4.10",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "buffer-loader": "^0.1.0",
+    "next-compose-plugins": "^2.2.1",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
