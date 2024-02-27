@@ -5,6 +5,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  mode: "jit",
   theme: {
     extend: {
       fontFamily: {
@@ -12,13 +13,21 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
       colors: {
-        "primary-green": "#25C269",
-        "secondary-orange": "#FF9933",
+        "black-100": "#2B2C35",
+        "primary-blue": {
+          DEFAULT: "#2B59FF",
+          100: "#F5F8FF",
+        },
+        "secondary-orange": "#f79761",
+        "light-white": {
+          DEFAULT: "rgba(59,60,152,0.03)",
+          100: "rgba(59,60,152,0.02)",
+        },
+        grey: "#747A88",
       },
       backgroundImage: {
-        "become-expert-banner": "url('/assets/images/banner.png')",
-        "congrats-banner": "url('/assets/images/congrats.svg')",
-        "footer-texture": "url('/img/footer-texture.png')",
+        pattern: "url('/pattern.png')",
+        "hero-bg": "url('/hero-bg.png')",
       },
     },
   },
