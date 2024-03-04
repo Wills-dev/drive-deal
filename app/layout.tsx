@@ -1,5 +1,7 @@
-import "@styles/globals.css";
 import { Metadata } from "next";
+
+import { Footer, Navbar } from "@components";
+import "@styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Drive Deal",
@@ -9,7 +11,11 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
-      <body className="app">{children}</body>
+      <body className="relative">
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 };
