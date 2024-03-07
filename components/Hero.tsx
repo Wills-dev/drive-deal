@@ -25,6 +25,7 @@ const Hero = () => {
             Effortlessly Secure Your Ideal Car: Find, Book, or Rent in Minutes!
           </p>
           <CustomButton
+            id="cars"
             title="Explore Cars"
             containerStyles="bg-primary-blue text-white rounded-full mt-10"
             handleClick={handleScroll}

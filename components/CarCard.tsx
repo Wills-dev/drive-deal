@@ -35,14 +35,14 @@ const CarCard = ({ car }: CarCardProps) => {
           {make} {model}
         </h2>
       </div>
-      <div className="flex justify-between items-center gap-4 w-full">
+      <div className="flex justify-between items-center gap-14 w-full">
         <p className="flex items-center mt-6 text-[32px] font-extrabold flex-1">
           <span className=" text-[14px] font-semibold mr-1">$</span>
           {carRent}
           <span className=" text-[14px] font-medium ml-1">/day</span>
         </p>
         <div className="relative flex w-full mt-2 flex-1">
-          <div className="flex  w-full justify-between text-gray">
+          <div className="flex  w-full justify-between text-gray gap-5">
             <div className="flex flex-col justify-center items-center gap-2">
               <Image
                 src="/steering-wheel.svg"
